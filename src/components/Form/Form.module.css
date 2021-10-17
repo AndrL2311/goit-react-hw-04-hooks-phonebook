@@ -1,0 +1,52 @@
+.formBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #c7c1c1;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.button {
+  width: 200px;
+  border: none;
+  padding: 5px;
+  background-color: #ebe5e5;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+
+  margin: 10px;
+
+  text-transform: uppercase;
+  font-family: inherit;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 1px 2px 2px 0 rgb(0 0 0 / 0.5);
+  transition: box-shadow 250ms linear;
+}
+
+.button:active {
+  color: #ffffff;
+  background-color: rgb(106, 115, 250);
+  box-shadow: 2px 5px 2px 0 rgb(0 0 0 / 0.5);
+}
+
+.label {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  font-size: 20px;
+  font-weight: 700;
+  font-family: inherit;
+  padding: 10px;
+}
+
+.input {
+  font-size: 20px;
+  margin-right: 20px;
+  margin-left: auto;
+}

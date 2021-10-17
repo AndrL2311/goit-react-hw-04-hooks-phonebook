@@ -1,0 +1,52 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-left: 20px;
+  padding-right: 20px;
+
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: rgb(216, 210, 210);
+}
+
+.item:nth-child(even) {
+  background: rgb(241, 234, 234);
+}
+.item:nth-child(odd) {
+  background: #fff;
+}
+
+.button {
+  border: none;
+  padding: 5px;
+  background-color: #ebe5e5;
+  color: #000000;
+  font-weight: 700;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-transform: uppercase;
+  font-family: inherit;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 1px 2px 2px 0 rgb(0 0 0 / 0.5);
+  transition: box-shadow 250ms linear;
+}
+
+.button:active {
+  color: #ffffff;
+  background-color: rgb(106, 115, 250);
+  box-shadow: 2px 5px 2px 0 rgb(0 0 0 / 0.5);
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.number {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: inherit;
+}
