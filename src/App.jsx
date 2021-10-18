@@ -33,6 +33,7 @@ class App extends React.Component {
   }
 
   formSubmitHandler = data => {
+    console.log(data);
     if (this.state.contacts.find(contact => contact.name === data.name)) {
       return alert(`${data.name} is alredy in contacts`);
     } else {
