@@ -49,7 +49,7 @@ function App() {
 
   const visibleContacts = useMemo(() => {
     const normalizedFilter = filter.toLowerCase();
-    console.log(contacts);
+    // console.log(contacts);
     return contacts.filter(contact =>
       contact.name.toLowerCase().includes(normalizedFilter),
     );
