@@ -75,8 +75,6 @@ function App() {
   );
 }
 
-export default App;
-
 // class App extends React.Component {
 //   state = {
 //     contacts: [
@@ -152,3 +150,5 @@ export default App;
 //     );
 //   }
 // }
+
+export default App;
